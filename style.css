@@ -238,7 +238,7 @@ nav
 .nuestro-trabajo-container
 {
    width: 100%;
-   height: 100vh;
+   height: 110vh;
    overflow: hidden;
    background-color: #E9ECEF;
 }
@@ -265,6 +265,7 @@ nav
 .nuestro-trabajo-carousel-container div
 {
     flex: 0 0 100%;
+    height: 50vh;
 }
 
 .nuestro-trabajo-carousel-container img {
