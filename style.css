@@ -52,7 +52,7 @@ nav
     display: flex;
     margin-left: 5px;   
     margin-right: 20px;
-    height: 10vh;
+    height: 5vh;
 }
 .line
 {
@@ -95,6 +95,7 @@ nav
     stroke-dashoffset: -135;
 }
 /*------------ Fin de burguer --------------*/
+/*------------ Inicio menu -----------------*/
 
 .aContainer
 {
@@ -126,13 +127,15 @@ nav
     transform: translateX(100%);
 }
 
+/*--------------- Fin Menu ----------*/
+
 .nosotros-container
 {
     background-image: url(./resources/workers-construction-site.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
-    min-height: 90vh;
+    min-height: 95vh;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -143,5 +146,74 @@ nav
     display: flex;
     flex-direction: column;
     width: 80%;
-    height: 100%;  
+    height: 100%;
+    margin-bottom: 20%;
+}
+
+.nosotros-texto-container button
+{
+    margin-top: 30px;
+}
+
+.valores-container
+{
+    background-color: #F8F9FA;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.valores-mosaico-container
+{
+    display: grid;
+    grid-template-areas: 
+    "mosaico1 mosaico2"
+    "mosaico1 mosaico3";
+    width: 90%;
+    min-height: 30vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3px;
+}
+
+#mosaico1
+{
+    grid-area: mosaico1;
+    background-image: url(./resources/construction-sector-768x768.jpg);
+    background-size: cover;
+    background-position: 70%;
+}
+
+#mosaico2
+{
+    grid-area: mosaico2;
+    background-image: url(./resources/6a0c3268aa9051fd5646973dc070aa7edc1fcb8e.jpg);
+    background-size: cover;
+}
+
+#mosaico3
+{
+    grid-area: mosaico3;
+    background-image: url(./resources/bC1DRGoM.jpeg);
+    background-size: cover;
+    background-position: 35%;
+}
+
+.valores-texto-container
+{
+    margin-top: 20%;
+    width: 90%;
+}
+
+.valores-texto-container p
+{
+    color: #1d1d1d;
+}
+
+.valores-texto-container button 
+{
+    margin-top: 30px;
 }
