@@ -15,6 +15,7 @@
 html
 {
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 a
@@ -47,6 +48,8 @@ button:active
 nav
 {
     position: sticky;
+    top: 0;
+    z-index: 100000;
     background-color: #1d1d1d;
     display: flex;
 }
