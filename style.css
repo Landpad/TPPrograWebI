@@ -248,7 +248,8 @@ nav
     justify-content: center;
     align-items: center;
     left: -100%;
-    visibility: hidden;  
+    visibility: hidden;
+    transition: all 0.5s;
 }
 
 .valores-popUp-container div:first-child
